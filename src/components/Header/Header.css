@@ -1,0 +1,69 @@
+.header-container {
+    background-color: #fff;
+    width: 100%;
+    height: 70px;
+    border-bottom: 3px solid #00BFA6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.header-container .menu-links ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    align-items: flex-start;
+    height: 100%;
+    width: 200px;
+}
+
+.header-container .menu-links ul li a {
+    color: #000;
+    text-decoration: none;
+}
+
+.header-container span {
+    font-size: 1.1em;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+}
+
+.header-container span .user-name {
+    margin: 5px;
+}
+
+.menu-options {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.header-container .logout-container {
+    display: none;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    top: 100%;
+    z-index: 15;
+    align-self: flex-start;
+}
+
+.header-container .logout-container button {
+    border: 1px solid red;
+    background-color: #fff;
+    width: 100px;
+    display: flex;
+    padding: 10px;
+    cursor: pointer;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.header-container .logout-container span {
+    margin-left: 10px;
+    font-size: 1.3em;
+    color: red;
+}

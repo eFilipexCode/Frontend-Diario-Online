@@ -1,0 +1,114 @@
+.container-login {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around; 
+    background-color: #eeeeee;
+}
+
+.container-login .intro-login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.container-login .intro-login img{
+    width: 450px;
+    height: 450px;
+}
+
+.container-login .intro-login a {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    transition: 0.3s all ease;
+}
+
+.container-login .intro-login a span {
+    color: #00BFA6;
+    text-align: center;
+    margin: 10px;
+    font-size: 1.2em;
+}
+
+.container-login .intro-login a:hover {
+    transform: translateX(-5px);
+}
+
+.container-login .container-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transform: translateY(-55px);
+}
+
+.container-login .container-form form {
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-login .container-form h1 {
+    margin: 5px;
+    color: #00BFA6;
+    font-size: 2.3em;
+}
+
+.container-login .container-form p {
+    color: #038171;
+    font-size: 1.3em;
+}
+
+.container-login .container-form form input {
+    width: 100%;
+    height: 50px;
+    border-radius: 8px;
+    border: 0px;
+    padding-left: 24px;
+    margin: 15px;
+    transition: all 0.3s ease;
+}
+
+.container-login .container-form input:focus {
+    border: 3px solid #038171;
+    background-color: rgb(255, 255, 255);
+}
+
+.container-login .container-form form button {
+    width:  100%;
+    height: 50px;
+    background-color: #038171;
+    color: #fff;
+    border-radius: 8px;
+    border: 0px;
+    cursor: pointer;
+    transition:  all 0.3s ease;
+    font-size: medium;
+    margin: 15px;
+}
+
+.container-login .container-form form button.loading-button-true {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.container-login .container-form form button.loading-button-true {
+    background-color: #ccc;
+}
+
+.container-login .container-form form button:hover {
+    background-color: #00BFA6;
+}
+
+.container-login .container-form form p.login-failed {
+    margin: 5px;
+    color: rgb(211, 35, 35);
+    font-size: 0.9em;
+    align-self: flex-start;
+    display: none;
+}

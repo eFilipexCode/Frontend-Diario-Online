@@ -1,0 +1,56 @@
+.pictures-container {
+    overflow: auto;
+    height: 550px;
+    width: 950px;
+    display: flex;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    padding: 20px;
+    transform: translate(-50%, -50%);
+    flex-direction: column;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 3px #ccc;
+}
+
+.pictures-container .back-link {
+    position: sticky;
+    top: -20px;
+    background-color: #fff;
+}
+
+.pictures-container .back-link a{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    color: #00BFA6;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    font-size: 1.2em;
+    align-self: flex-start;
+    margin: 20px 0px;
+}
+
+.pictures-container .back-link a span {
+    margin-left: 5px;
+}
+
+.pictures-container .back-link a:hover {
+    transform: translateX(-5px);
+    font-weight: 0;
+}
+
+.pictures-container .images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.pictures-container .images img {
+    width: auto;
+    height: auto;
+    margin: 10px;
+    max-width: 260px;
+    max-height: 220px;
+    cursor: pointer;
+}

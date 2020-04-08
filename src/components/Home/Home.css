@@ -1,0 +1,73 @@
+.container {
+    background-color: #eee;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 80px;
+    min-height: 100vh
+}
+
+
+.intro-text h1 {
+    font-size: 3.5em;
+    margin: 10px 0px;
+    color: #00BFA6;
+}
+  
+.intro-text h2 {
+    font-size: 1.5em;
+    color: #038171;
+    margin: 5px 0px;
+}
+  
+.intro-text p {
+    color: rgb(141, 141, 141);
+    margin: 5px 0px;
+    font-size: 1.4em;
+}
+
+.intro-text .buttons-container {
+    display: flex;
+}
+
+.intro-text button {
+    background-color: #00BFA6;
+    padding: 5px;
+    height: 50px;
+    width: 150px;
+    margin: 10px 10px 10px 0px;
+    border: none;
+    font-size: 1.1em;
+    color: #fff;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s all ease;
+    box-shadow: 1px 1px 3px 1px #038171;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro-text button:hover {
+    transform: translateY(5px);
+    background-color: #038171;
+    box-shadow: 1px 3px 3px 0px #08ccb2;
+}
+
+.intro-text button:active {
+    box-shadow: 0px 0px 0px 0px #08ccb2;
+}
+
+.intro-text button span {
+    margin: 10px;
+}
+
+.intro-text a {
+    text-decoration: none;
+}
+
+.container img {
+    width: 450px;
+    height: 450px;
+}

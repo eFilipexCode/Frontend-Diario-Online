@@ -1,0 +1,33 @@
+.start-options {
+    position: relative;
+    width: calc(100vw - 250px);
+    height: calc(100vh - 70px);
+    left: 250px;
+    top: calc(70px - 100vh);
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.options {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.options h1 {
+    margin: 10px;
+    font-size: 2em;
+}
+
+.start-options .options .action {
+    margin: 5px;
+    text-decoration: none;
+    color: #00BFA6;
+    cursor: pointer;
+}
+
+.start-options .options .action:hover {
+    text-decoration: underline;
+}

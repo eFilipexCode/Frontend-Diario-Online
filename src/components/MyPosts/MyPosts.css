@@ -1,0 +1,32 @@
+.myposts-container {
+    width: 100vw;
+}
+
+.user-posts {
+    height: calc(100vh - 70px);
+}
+
+.user-posts .user-post {
+    height: 200px;
+    border-bottom: 3px solid #ccc;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: 0.3s all ease;
+    cursor: pointer;
+}
+
+.user-posts .user-post:hover {
+    background-color: #eee;
+}
+
+.user-posts .user-post h1 {
+    flex: 1;
+    margin: 10px 0px;
+}
+
+.user-posts .user-post p {
+    flex: 3;
+    margin-top: 10px;
+}

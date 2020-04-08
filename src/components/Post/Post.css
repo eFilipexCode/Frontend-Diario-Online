@@ -1,0 +1,86 @@
+.post-unique {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.options-icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-self: flex-end;
+    width: 60px;  
+}
+
+.options-icons .delete-btn, .options-icons .edit-btn {
+    color: #000;
+    width: 150px;
+    flex: 1;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.options-icons .delete-btn:hover {
+    color: red;
+}
+
+.options-icons .edit-btn:hover {
+    color: #3898db;
+}
+
+.post-unique h1, p.desc, p.content {
+    font-size: 3em;
+    padding: 10px;
+    width: 100%;
+}   
+
+.post-unique p.desc {
+    border-bottom: 3px solid #ccc;
+    font-size: 1em;
+}
+
+.post-unique p.content {
+    text-align: justify;
+    font-size: 1em;
+}
+
+.delete-confirmation {
+    width: 100vw;
+    height: 100vh;
+    background-color: #0000008c;
+    position: absolute;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.delete-confirmation .warning {
+    padding: 20px;
+    background-color: #fff;
+    height: 220px;
+    width: 400px;
+    font-size: 1.2em;
+    text-align: center;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.delete-confirmation .warning .options-delete button {
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    border-radius: 8px;
+}
+
+.delete {
+    background-color: red;
+}
+
+.cancel-delete {
+    background-color: #00BFA6;
+}
